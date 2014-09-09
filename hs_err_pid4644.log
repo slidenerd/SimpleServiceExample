@@ -1,0 +1,109 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:129), pid=4644, tid=3440
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version: 7.0_09-b05
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (23.5-b02 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000022dc000):  JavaThread "Unknown thread" [_thread_in_vm, id=3440, stack(0x00000000024b0000,0x00000000025b0000)]
+
+Stack: [0x00000000024b0000,0x00000000025b0000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000022dc000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=3440, stack(0x00000000024b0000,0x00000000025b0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.021 loading class 0x000000000223f8c0 done
+Event: 0.021 loading class 0x0000000002201d00 done
+Event: 0.021 loading class 0x0000000002201cd0
+Event: 0.021 loading class 0x000000000228d920
+Event: 0.021 loading class 0x000000000228d920 done
+Event: 0.021 loading class 0x000000000228d960
+Event: 0.021 loading class 0x000000000228d960 done
+Event: 0.021 loading class 0x0000000008abf0c0
+Event: 0.021 loading class 0x0000000008abf0c0 done
+Event: 0.021 loading class 0x0000000002201cd0 done
+
+
+Dynamic libraries:
+0x000000013f6e0000 - 0x000000013f714000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x0000000077930000 - 0x0000000077adb000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000077710000 - 0x000000007782f000 	C:\Windows\system32\kernel32.dll
+0x000007fefda20000 - 0x000007fefda8b000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefe3e0000 - 0x000007fefe4bb000 	C:\Windows\system32\ADVAPI32.dll
+0x000007feffad0000 - 0x000007feffb6f000 	C:\Windows\system32\msvcrt.dll
+0x000007fefe6f0000 - 0x000007fefe70f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007feff730000 - 0x000007feff85e000 	C:\Windows\system32\RPCRT4.dll
+0x0000000077830000 - 0x000000007792a000 	C:\Windows\system32\USER32.dll
+0x000007fefe2a0000 - 0x000007fefe307000 	C:\Windows\system32\GDI32.dll
+0x000007fefe030000 - 0x000007fefe03e000 	C:\Windows\system32\LPK.dll
+0x000007feffb70000 - 0x000007feffc3a000 	C:\Windows\system32\USP10.dll
+0x000007fefc350000 - 0x000007fefc544000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_fa645303170382f6\COMCTL32.dll
+0x000007fefdfb0000 - 0x000007fefe021000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefe270000 - 0x000007fefe29e000 	C:\Windows\system32\IMM32.DLL
+0x000007feff620000 - 0x000007feff729000 	C:\Windows\system32\MSCTF.dll
+0x000000006f7a0000 - 0x000000006f871000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x000000006ea20000 - 0x000000006f13f000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x000007fef7050000 - 0x000007fef7059000 	C:\Windows\system32\WSOCK32.dll
+0x000007fefe390000 - 0x000007fefe3dd000 	C:\Windows\system32\WS2_32.dll
+0x000007feff860000 - 0x000007feff868000 	C:\Windows\system32\NSI.dll
+0x000007fefb210000 - 0x000007fefb24b000 	C:\Windows\system32\WINMM.dll
+0x0000000077af0000 - 0x0000000077af7000 	C:\Windows\system32\PSAPI.DLL
+0x000000006fa30000 - 0x000000006fa3f000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x000000006f770000 - 0x000000006f798000 	C:\Program Files\Java\jre7\bin\java.dll
+0x000000006f750000 - 0x000000006f765000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:E:\Vivz Programming Tools\Android SDKS\platforms\android-16\android.jar 
+java_command: PrimeNumbers
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=E:\Vivz Programming Tools\JDK 7
+PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Vivz Programming Tools\JDK 7\bin;
+USERNAME=Vivz
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7600 
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 6 model 23 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, tsc
+
+Memory: 4k page, physical 4190096k(2129744k free), swap 8378296k(5710372k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (23.5-b02) for windows-amd64 JRE (1.7.0_09-b05), built on Sep 24 2012 21:45:04 by "java_re" with unknown MS VC++:1600
+
+time: Wed Nov 14 15:52:33 2012
+elapsed time: 0 seconds
+
